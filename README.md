@@ -2,7 +2,11 @@
 
 This is an example on how to publish the Spring Boot Actuator custom metrics on Dynatrace.
 
-After cloned the project, just modify the ```application.properties``` file properly and run the app with ```mvn spring-boot:run```.
+After cloned the project, just modify the ```application.properties``` file properly and run the app with the following command:
+
+```
+mvn spring-boot:run
+```
 
 The custom metrics will be published under the **Technologies** page of your Dynatrace instance.
 
